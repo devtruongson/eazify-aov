@@ -1,0 +1,47 @@
+---
+title: "Volume discount"
+description: "Buy more, save more — tiered quantity discounts"
+---
+
+Volume discount shows a "buy more, save more" widget on the product page: customers pick a quantity tier (Single, Duo, Trio, and so on), and each tier unlocks a bigger discount. It's the most flexible offer type — it also supports Buy X Get Y Free and free-gift incentives.
+
+## How tiers work
+
+Each offer has one or more tiers. For every tier you set:
+
+- **Title and subtitle** — for example "Duo" / "You save 30%"
+- **Quantity** — how many units this tier requires
+- **Discount type** — `Default` (no discount, used for a baseline tier like "Single"), `Percentage`, or `Fixed amount`
+- **Discount label and badge** — the text shown on the tier, and an optional badge like "Most Popular"
+
+Customers select a tier, and the price updates live to reflect the discount for that quantity.
+
+### Buy X Get Y Free
+
+Instead of a percentage or fixed discount, a tier can be configured as **Buy X, Get Y Free** — the customer pays for X units and receives Y additional units at no cost. This is useful for offers like "Buy 2, Get 1 Free" without needing to calculate an equivalent percentage discount.
+
+### Free gift add-ons
+
+Any tier can include one or more **free gifts**: a specific product (and variant) that's automatically added to the cart at no charge when a customer selects that tier. This is a good way to make a higher tier more attractive without discounting your core product further.
+
+## Where the offer applies
+
+Set **visibility** to control which products show the offer:
+
+- **All products** — shows on every product page
+- **Specific products** — pick individual products
+- **Specific collections** — shows on every product inside the collections you choose
+
+### Combined volume discount
+
+By default, the quantity tiers only count units of the *same* product/variant. Turning on **Combine with other products** lets the tiers count units across a set of related products (and optionally collections) toward the same discount — useful when you want customers to mix and match products but still unlock the volume discount, rather than requiring three of the exact same item.
+
+## Urgency and layout
+
+- **Countdown timer** — add a countdown with a custom title and description to create urgency. When it's enabled, it appears above the tier list.
+- **Template** — display tiers **vertically** (stacked list, the most common layout) or **horizontally** (side-by-side cards).
+- **Header and footer text** — customize the heading above the tiers (for example "Buy More, Save More") and the footer note (for example "Free Delivery").
+
+## Design
+
+Colors, fonts, borders, corner radius, and badge style are all configurable — see [Design customization](/design-customization) for details that apply across every offer type.

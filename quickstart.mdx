@@ -1,47 +1,62 @@
 ---
 title: "Quickstart"
-description: "Begin with a guide on the fastest path to a successful outcome"
+description: "Install Eazify AOV and publish your first offer"
 ---
 
-Describe how someone begins using your product. What is the first thing they need to do? Are there any prerequisites?
-
-A quickstart should take someone from zero to using your product. They'll get a quick win and a sense of what they can accomplish.
+This guide takes you from installing Eazify AOV to seeing a live offer on your storefront.
 
 ## Prerequisites
 
 Before you begin, you must have:
 
-- Requirement one (for example, Node.js 18+, a free account, an API key)
-- Requirement two (for example, a compatible device, a compatible browser, a compatible operating system)
+- A Shopify store you're an admin on
+- At least one product (or collection) you want to promote with an offer
 
 ## Get started
 
 <Steps>
-  <Step title="Install">
-    Describe how to install your product or sign up.
-
-    ```bash
-    npm install your-package
-    ```
+  <Step title="Install the app">
+    Install Eazify AOV from the Shopify App Store. You'll be redirected to your Shopify admin to approve the requested permissions, then dropped into the Eazify AOV dashboard.
   </Step>
-  <Step title="Configure">
-    Describe any setup or configuration needed before first use.
-
-    ```bash
-    your-cli init
-    ```
+  <Step title="Choose a plan">
+    During onboarding you'll see the available plans. You can start on the Free plan and upgrade at any time — see [Plans](/plans) for what each tier includes.
   </Step>
-  <Step title="Run it">
-    Show the first thing a user does to see it working.
+  <Step title="Create your first offer">
+    From the dashboard, click **Create offer** and pick an offer type:
 
-    ```bash
-    your-cli start
-    ```
+    - [Volume discount](/offers/volume-discount) for "buy more, save more" quantity tiers
+    - [Product bundle](/offers/product-bundle) for a fixed set of products sold together
+    - [Frequently bought together](/offers/frequently-bought-together) for complementary product suggestions
+    - [Mix and match](/offers/mix-and-match) for a build-your-own bundle
+
+    Pick which products or collections the offer applies to, set your discount, then customize the design so it matches your theme.
+  </Step>
+  <Step title="Publish the offer">
+    Save the offer as a draft while you're testing it, then switch it to **Published** once you're happy with it. Draft offers are never shown to customers.
+  </Step>
+  <Step title="Enable the widget on your theme">
+    Eazify AOV renders offers through a theme app embed, which needs to be turned on once per theme:
+
+    1. In your Shopify admin, go to **Online Store → Themes**.
+    2. Click **Customize** on your live theme.
+    3. Open **App embeds** (usually in the left sidebar) and turn on **Eazify AOV**.
+    4. Save.
+
+    If you don't see the offer on your storefront after publishing it, this is the most common reason — the app embed needs to be turned on for every theme you use.
   </Step>
 </Steps>
 
-<Tip>
-  Give people a way to get help. This could be a link to a support page, a chat with a customer support agent, or a forum for your product.
+## Next steps
 
-  Example: Need help? Reach out to us at [support@yourcompany.com](mailto:support@yourcompany.com).
+<CardGroup cols={2}>
+  <Card title="Customize the design" icon="palette" href="/design-customization">
+    Match colors, fonts, and layout to your storefront.
+  </Card>
+  <Card title="Track performance" icon="chart-line" href="/analytics">
+    See views, add-to-carts, orders, and revenue per offer.
+  </Card>
+</CardGroup>
+
+<Tip>
+  Need help? Reach out through the in-app chat, available from **Help center** in the Eazify AOV navigation.
 </Tip>

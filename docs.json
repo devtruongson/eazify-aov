@@ -11,20 +11,30 @@
   "navigation": {
     "pages": [
       {
-        "group": "Getting Started",
+        "group": "Get started",
         "pages": [
           "index",
           "quickstart"
         ]
       },
       {
-        "group": "Getting Started",
+        "group": "Offer types",
         "pages": [
-          "index",
-          "quickstart"
+          "offers/volume-discount",
+          "offers/product-bundle",
+          "offers/frequently-bought-together",
+          "offers/mix-and-match"
         ]
       },
-      "untitled-page"
+      {
+        "group": "Features",
+        "pages": [
+          "design-customization",
+          "analytics",
+          "plans"
+        ]
+      },
+      "faq"
     ]
   },
   "logo": {
